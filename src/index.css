@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+Image.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tawk-button {
+  background: #141414 !important;
+}
+.contactwithUs-form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3px;
+  flex-direction: column;
+}
+.contact-form{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  text-align: center;
+    
+}
+.contact-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 0.5em 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  
+/* background-color: aqua; */
+margin: 10px;
+font-size: large;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.input-cont{
+  display: flex;
+  align-content: flex-end;
+  border: 1px solid blanchedalmond;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  height: 70%;
+ 
+
+}
+.input-container-contact{
+display: flex;
+justify-content:space-between;
+    flex-wrap:wrap;
+text-align: right;
+flex-direction: row;
+width: 80%;
+align-items: center;
+}
+.input-cont-contact{
+  height: auto;
+  width: 90%;
+  
+  border: 1px solid blanchedalmond;
+  color: black;
+  padding: 1%;
+  margin: 3%;
+}
+
+.message .input-cont-contact{
+  height: 4em;
+}
